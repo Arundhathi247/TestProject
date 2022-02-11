@@ -6,7 +6,7 @@ import java.util.Date;
 
 
 /**
- * The persistent class for the TBL_TICKET database table. ARU
+ * The persistent class for the TBL_TICKET database table. ARU sss
  * 
  */
 
