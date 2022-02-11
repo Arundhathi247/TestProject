@@ -16,6 +16,8 @@ public class Employeet implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int empid;
+	
+	private String country;
 
 	private String empaddress;
 

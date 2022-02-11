@@ -6,14 +6,12 @@ import java.util.Date;
 
 
 /**
- * The persistent class for the TBL_TICKET database table. ARU
+ * The persistent class for the TBL_TICKET database table.
  * 
  */
-
 @Entity
-@Table(name="TBL_TICKET")
-@NamedQuery(name="Ticket.findAll", query="SELECT t FROM Ticket t")
-public class Ticket implements Serializable {
+@NamedQuery(name="TBL_TICKET.findAll", query="SELECT t FROM TBL_TICKET t")
+public class TBL_TICKET implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private int ticketid;
 	private String destinationstation;
@@ -22,7 +20,7 @@ public class Ticket implements Serializable {
 	private String sourcestation;
 	private Date traveldate;
 
-	public Ticket() {
+	public TBL_TICKET() {
 	}
 
 
